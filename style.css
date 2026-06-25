@@ -10,6 +10,22 @@
   margin: 40px auto;
 }
 
+.simple-link-container {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px; /* Adjust this space to change the distance between the links and dot */
+}
+
+.simple-link-container a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.simple-link-container .dot {
+  color: #6c757d; /* Matches the dot to a neutral gray */
+}
 
 .link-icon {
   width: 24px;
