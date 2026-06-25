@@ -1,0 +1,88 @@
+ <!DOCTYPE html>
+<html>
+<body class="parent-container">
+<a href="index.html"><img src="res/icon_home.svg" alt="Home Icon" class="header-icon"></a>
+
+<div class="header-container">
+    <img src="res/icon_sceniclauncher.png" alt="Launcher Icon" class="header-icon">
+    <h1>Scenic Launcher</h1>
+    <a href="https://play.google.com/store/apps/details?id=ca.doophie.sceniclauncher"><img src="res/icon_googleplay.png" alt="Google Play" class="header-icon"></a>
+</div>
+
+<p class="body-text">A launcher application to let you customize your phone in a new way. Replace all your app icons with images, gifs or sprite-sheets. Create unique media player, battery indicator and weather widgets. Create folders to open applications in private or work profiles.</p>
+
+<div class="screenshots">
+  <img src="res/0_screenshot_scenic.png">
+  <img src="res/1_screenshot_scenic.png">
+  <img src="res/2_screenshot_scenic.png">
+  <img src="res/3_screenshot_scenic.png">
+  <img src="res/4_screenshot_scenic.png">
+</div>
+
+<h3>Docs</h3>
+ 
+  <p>Long press on background to enter "Edit mode"</p>
+
+  <p>Long press on a widget to edit or move it</p>
+ 
+  <p>To open settings, swipe down to access the all applications list, scroll all the way to the bottom. Your settings icon will be shown at the end of the list</p>
+ 
+  <p>To export a layout, open it in the settings and find the export button at the top of the page.</p>
+
+<style>
+
+    .screenshots {
+       width: 100%;    /* Fills 100% of the immediate parent element */
+       margin-top: 52px;
+       margin-bottom: 52px;
+    }
+
+    .body-text {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-container {
+      padding-top: 52px;
+      display: flex;         
+      align-items: center;   
+      justify-content: center;
+      gap: 12px;             
+    }
+
+    .header-container h1 {
+      margin: 0;             
+    }
+
+    .header-icon {
+      width: 40px;           
+      height: 40px;          
+    }
+div {
+  display: flex;
+}
+
+img {
+  width: 25%;
+}
+
+
+@media only screen
+  and (max-width: 568px) {
+    div {
+      flex-direction: column;
+    }
+    
+    img {
+      width: 100%;
+    }
+}
+    
+
+/* for visualisation only */
+img {display: block;}
+</style>
+
+
+</body>
+</html> 

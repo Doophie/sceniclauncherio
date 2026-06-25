@@ -1,15 +1,42 @@
  <!DOCTYPE html>
 <html>
-<body>
 
-<h1>Doophie.ca</h1>
-<a href="https://www.doophie.ca/privacy">Privacy Policy</a> 
+<head>
+    <meta charset="UTF-8">
+    <title>Doophie.ca</title>
+    <!-- This imports your separate CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
 
-<h3>My Projects</h3>
-<a href="https://www.doophie.ca/sceniclauncher">Scenic Launcher</a> 
+<body class="parent-container">
 
-<h3>About Me</h3>
-<p>Hello, welcome to my website. My name is Quinn, I am a senior android developer and new dad. In my free time I've been working on developing an app to hone my skills and ended up liking it so much that I decided to release it to the store. Feel free to check it out at the link above. I will try providing regular updates so keep checking back for more!</p>
+    <section class="framed-section">
+        <div class="header-container">
+            <img src="res/icon_developer.png" alt="Launcher Icon" class="header-icon">
+            <h1>Doophie.ca</h1>
+        </div>
+
+        <h3 class=body-header-left>About Me</h3>
+        <p class=body-text-left>
+        Hello, welcome to my website. My name is Quinn, I am a senior android developer from Canada and a father of 2 girls.
+        In my free time I work on android apps to hone my skills, you can few a couple of them below!
+        </p>
+
+        <h3 class=body-header-left>My Projects</h3>
+        <a href=sceniclauncher.html>
+            <div class="link-container">
+                <img src="res/icon_sceniclauncher.png" alt="Launcher Icon" class="link-icon">
+                <b>Scenic Launcher</b>
+            </div>
+        </a>
+        <a href=scribblesnap.html>
+            <div class="link-container">
+                <img src="res/icon_scribblesnap.png" alt="Launcher Icon" class="link-icon">
+                <b>Scribble Snap</b>
+            </div>
+        </a>
+    </section>
+
 
 </body>
 </html> 
