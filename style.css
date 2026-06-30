@@ -1,4 +1,11 @@
 
+html {
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+
 .framed-section {
   /* Frame styling */
   border: 4px solid #333;
