@@ -15,7 +15,20 @@ p { margin:12px 0 18px; }
 a { color:var(--accent); text-underline-offset:3px; }
 a:hover { color:#064e92; }
 a:focus-visible { outline:3px solid #efaa3c; outline-offset:4px; border-radius:4px; }
-.header-container { display:flex; align-items:center; justify-content:center; flex-wrap:wrap; gap:12px; padding-top:46px; text-align:center; }
+.circle-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.header-container {
+  display: flex;
+  flex-direction: column; /* Stacks the image above the text */
+  align-items: center;    /* Centers the image and h1 horizontally */
+  text-align: center;     /* Centers multi-line heading text */
+  gap: 12px;
+  padding-top: 46px;
+}
 .header-container h1 { margin:0; }
 .header-icon { display:block; flex:none; width:40px; height:40px; object-fit:contain; }
 .home-icon { position:absolute; top:24px; left:28px; display:block; width:24px; height:24px; }
@@ -79,3 +92,4 @@ a:focus-visible { outline:3px solid #efaa3c; outline-offset:4px; border-radius:4
 /* Keep media inside the viewport on narrow devices. */
 .framed-section img { max-width:100%; }
 .island-gallery-scroll, .screenshots { min-width:0; }
+
